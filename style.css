@@ -1,0 +1,239 @@
+* {
+    cursor: grab;
+    
+  }
+  
+  body {
+    background-color: black;
+    /* background-image: url(Pictures/WallpaperDog-10881784.jpg); */
+    background-image: url(Pictures/waves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+    
+  
+  }
+  
+  
+  
+  
+  div.mainBorder {
+  
+    display: flex;
+    border: groove;
+    border-color: transparent;
+    margin-top: 10vh;
+    justify-content: center;
+   
+    padding: 0;
+  
+   
+   
+   
+  }
+  div.anmation {
+   
+    width: 49.35vw;
+    height: 54px;
+    background-color: transparent;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+   
+   
+  }
+  
+  /* @keyframes example {
+    0%   {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+    25%  {background-color:white; left:0px; top:340px;}
+    50%  {background-color:white; left:2013px; top:340px;}
+    75%  {background-color:white; left:0px; top:340px;}
+    100% {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+  } */
+  
+  @keyframes example {
+    /* 0%   {background-color:rgb(255, 255, 255); left:790px; top:0px;}
+    25%  {background-color:white; left:790px; top:340px;}
+    50%  {background-color:white; left:790px; top:1000px;}
+    75%  {background-color:white; left:790px; top:340px;}
+    100% {background-color:rgb(0, 0, 0); left:790px; top:0px;} */
+  
+    0%   {background-color:transparent; left:25vw; top:0vh;}
+    25%  {background-color:rgba(250, 227, 227, 0.164); left:25vw; top:35vh;}
+    50%  {background-color:transparent; left:25vw; top:90vh;}
+    75%  {background-color:rgba(250, 227, 227, 0.164); left:25vw; top:35vh;}
+    100% {background-color:transparent; left:25vw; top:0vh;}
+  }
+  
+  
+  #meBorder {
+    display: flex;
+    border: groove;
+    border-color: white;
+    text-align: center;
+    width: 712px;
+    height: 49px;
+   
+    
+   
+  }
+  
+  #meBorder > article.me {
+    color: black;
+    font-weight: 200;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: textcolor;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    color:white;
+  
+    
+  }
+  
+  @keyframes textcolor {
+    0% {color: transparent;}
+    25% {color: white;}
+    50% {color: transparent;}
+    75% {color: white;}
+   
+   
+  }
+  
+  @keyframes textal {
+    0% {color: transparent;}
+    25% {color: white;}
+    50% {color: transparent;}
+    75% {color: white;}
+   
+   
+  }
+  
+  #ImageOfMe {
+    display: flex;
+    border: groove;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(Pictures/SisPhoto.PNG);
+    background-size: cover;
+    background-position: 1px -3px;
+    box-shadow: 0 5px 5px 0px;
+    margin: auto;
+  
+    animation: float 3s ease-in-out infinite;
+  
+    
+    
+  }
+  
+  #Options {
+    display: flex;
+    margin-top: 4vw;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-right: 2vw;
+    border: groove;
+    border-color: transparent;
+    background: transparent;
+    
+    
+    
+   
+  }
+  
+  #Options > ul {
+    display: flex;
+    text-decoration: none;
+  
+    font-size: large;
+   
+  
+  }
+  
+  #Options > ul > li {
+   
+   
+  
+    width: 200px;
+    text-align: center;
+    color: transparent;
+    
+    
+    
+  
+  }
+  
+  #Options > ul > li >a {
+   
+   
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: groove;
+    padding: 6px 8px;
+    border-color: transparent;
+    border-radius: 20px;
+    animation-name: textal;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  
+    
+  
+    
+    
+    
+    
+  
+    
+    
+  
+  }
+  
+  
+  
+  
+  
+  #Options > ul > li >a:hover {
+   
+    background-color: white;
+    color: black;
+    cursor: grabbing;
+    animation: float1 3s ease-in-out infinite;
+  
+    
+  }
+  
+  
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float1 {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }

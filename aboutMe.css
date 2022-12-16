@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Pictures/STARS.jpeg);
+    animation-name: starts;
+    animation-duration: 100s;
+    animation-iteration-count: 5;
+}
+
+div.borderBig {
+    
+    border: groove;
+    width: 22%;
+    height: 500px;
+    margin: auto;
+   margin-top: 5%;
+    justify-content: center;
+    
+}
+
+div.borderBig {
+    font-weight: 700;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+div.borderBig > div.smallBorder {
+    margin-top: 10%;
+   height: 20%;
+    border: groove;
+}
+
+@keyframes starts {
+
+       0%{ 
+        
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Pictures/STARS.jpeg);
+        
+       }
+   
+       
+
+          75%{ 
+           background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Pictures/STARS.jpeg);
+           background-position: 300% 300%;
+           
+           
+          }
+
+
+          100%{ 
+           background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Pictures/STARS.jpeg);
+           background-position: 0% 0%;
+           
+           
+          }
+           
+}
+
+
+
+
+div.buttons > li {
+   display: flex;
+   text-decoration: none;
+   border: groove;
+   border-color: transparent;
+   justify-content: center;
+   margin-right: 5%;
+   margin-top: 2%;
+   font-size: large;
+   
+   
+}
+
+div.buttons > li > ul {
+   text-align: center;
+   margin-left:19px ;
+}
+
+.Ahome {
+   animation: float 2s ease-in-out infinite;
+
+}
+.Bhome {
+   animation: float1 1.5s ease-in-out infinite;
+
+}
+
+.Chome {
+   animation: float2 2.5s ease-in-out infinite;
+
+}
+
+
+@keyframes float2 {
+   0% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+   50% {
+     box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+     transform: translatey(-20px);
+   }
+   100% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+ }
+
+@keyframes float {
+   0% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+   50% {
+     box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+     transform: translatey(-20px);
+   }
+   100% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+ }
+
+
+ @keyframes float1 {
+   0% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+   50% {
+     box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+     transform: translatey(-20px);
+   }
+   100% {
+     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+     transform: translatey(0px);
+   }
+ }
+div.buttons > li > ul > a {
+   font-style: none;
+   text-decoration: none;
+   color: white;
+   padding: 6px 8px;
+   
+   border: groove;
+   border-radius: 16px;
+   border-color: transparent;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+
+}
+
+div.buttons > li > ul > a:hover {
+   background-color: white;
+   color: black;
+}
